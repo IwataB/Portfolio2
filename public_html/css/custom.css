@@ -11,7 +11,11 @@ div{
 .row{
     border-color: red;
 }
-
-
-
-
+.header{
+    border-style: dashed;
+    border-width: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+}
