@@ -13,6 +13,7 @@ div{
 }
 .header{
     border-style: dashed;
+    border-color: blue;
     border-width: 5px;
     margin-bottom: 15px;
     margin-top: 15px;
