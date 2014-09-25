@@ -1,8 +1,8 @@
-div{
+.nav{
     border-style: solid;
     border-width: 5px;
     padding: 30px;
-    border-color: green;
+    border-color: blue;
 }
 
 .container{
@@ -21,4 +21,27 @@ div{
     font-size: 16px;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+
+#index{
+    background-image: url(http://cdn2.bigcommerce.com/server300/b500f/product_images/theme_images/Underwater_Wallpapers4Desktop_com_022.jpg?t=1398900672);
+    background-size: cover;
+    color: orange;
+}
+
+#technology{
+    background-image: url(http://fc00.deviantart.net/fs71/i/2014/195/1/d/monstercat_best_of_2014__unofficial__by_prostyle43-d7qlnxv.jpg);
+    background-size: cover;
+}
+
+#project{
+    background-image: url(http://cdn.wallxd.com/517e4b02c94b689155.jpg);
+    background-size: cover;
+    color: red;
+}
+
+.image{
+    border: blue;
+    border-width: 5px;
 }
