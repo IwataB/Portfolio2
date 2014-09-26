@@ -1,16 +1,4 @@
-.nav{
-    border-style: solid;
-    border-width: 5px;
-    padding: 30px;
-    border-color: blue;
-}
 
-.container{
-    border-color: blue;
-}
-.row{
-    border-color: red;
-}
 .header{
     border-style: dashed;
     border-color: blue;
@@ -22,26 +10,27 @@
     padding-bottom: 20px;
     padding-top: 20px;
 }
-
-
+/*Affects all items given the "header" class to have a border, border-style,
+margin, padding, aligning the text, and the font*/
 #index{
     background-image: url(http://cdn2.bigcommerce.com/server300/b500f/product_images/theme_images/Underwater_Wallpapers4Desktop_com_022.jpg?t=1398900672);
     background-size: cover;
     color: orange;
 }
-
+/*Sets the font and background image for my Index page*/
 #technology{
     background-image: url(http://fc00.deviantart.net/fs71/i/2014/195/1/d/monstercat_best_of_2014__unofficial__by_prostyle43-d7qlnxv.jpg);
     background-size: cover;
 }
-
+/*Sets the background image for my Technology page*/
 #project{
     background-image: url(http://cdn.wallxd.com/517e4b02c94b689155.jpg);
     background-size: cover;
     color: red;
 }
-
+/*Sets the font and background image for my Projeect page*/
 .image{
-    border: blue;
+    border: orange;
     border-width: 5px;
+    border-style: solid;
 }
