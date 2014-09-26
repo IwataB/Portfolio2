@@ -34,3 +34,7 @@ margin, padding, aligning the text, and the font*/
     border-width: 5px;
     border-style: solid;
 }
+
+a{
+    color: white;
+}
