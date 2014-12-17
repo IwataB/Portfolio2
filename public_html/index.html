@@ -33,11 +33,18 @@ and open the template in the editor.
                 </div>
                 <div class="col-xs-2">
                     <!--Makes a second column with size xs-2-->
-                    <nav class="list-group">
-                        <a class="list-group-item" href="index.html">About Me</a>
-                        <a class="list-group-item" href="technology.html">Technology</a>
-                        <a class="list-group-item" href="projects.html">Projects</a>
-                    </nav>
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                              Page Links <span class="caret"></span>
+                            </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <a class="list-group-item" href="index.html">About Me</a>
+                                    <a class="list-group-item" href="technology.html">Technology</a>
+                                    <a class="list-group-item" href="projects.html">Projects</a>
+                                </ul>
+                        </li>
+                    </ul>
                     <!--Adds a navigation menu-->
                 </div>
             </div>    
